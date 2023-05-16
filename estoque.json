@@ -1,0 +1,18 @@
+[
+  {
+    "bebida": "cerveja",
+    "quantidade": "120"
+  },
+  {
+    "bebida": "fanta",
+    "quantidade": "33"
+  },
+  {
+    "bebida": "teste",
+    "quantidade": "11"
+  },
+  {
+    "bebida": "uva",
+    "quantidade": "45"
+  }
+]

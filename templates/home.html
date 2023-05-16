@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CE CONTROLE ESTOQUE</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+<div id="container"></div>
+<nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <span class="navbar-text">
+          SCE - sistema de controle de estoques
+        </span>
+      </div>
+    </nav>
+
+<div>
+    <h1 style='text-align: center'>APLICACAO DE CONTROLE DE ESTOQUE</h1>
+</div>
+<div style='text-align: center',class = "container" >
+    <form action="home" method="post">
+    <h1>Registro de Entrada de Mercadorias</h1>
+    <section id="buscaexibe">
+
+
+        <button type="submit" id="btn-entrar2" value="entrar">PRODUTOS DO ESTOQUE </button>
+    </section>
+        </form>
+</div>
+
+<div><br><br><br><br><br><br><br>
+    <form action="enviarbebida" method="post">
+            <h2 style='text-align: center'>ENVIO DE PRODUTOS AO ESTOQUE</h2>
+        <div style='text-align: center'>
+            <section id="enviarbebida">
+
+                <label for="nomeEB">BEBIDA</label>
+                <input type="text" name="nomeEB" id="nomeEB" placeholder="NOME DO PRODUTO" required>
+                <label for="nomeEBB">QUANTIDADE</label>
+                <input type="text" name="nomeEBB" id="nomeEBB" placeholder="QUANTIDADE INICIAL" required>
+                <button type="submit" id="btn-entrarEB" value="entrar">ENVIAR</button>
+            </section>
+            </div>
+        </form>
+
+
+    </div>
+</body>
+
+</html>
